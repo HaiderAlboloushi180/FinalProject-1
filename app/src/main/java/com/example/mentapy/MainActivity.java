@@ -3,6 +3,7 @@ package com.example.mentapy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,8 +16,6 @@ import android.widget.Toolbar;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
-//    private ArrayList<HomePageWidget> widgets = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +39,9 @@ public class MainActivity extends AppCompatActivity {
         suicideHotline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                String phone = "+96599603997";
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
+                startActivity(intent);
             }
         });
 
