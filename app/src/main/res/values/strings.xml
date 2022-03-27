@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">Mentapy</string>
+    
+    <string name="depression">Depression</string>
+    <string name="depressionDesc">a mental condition characterized by feelings of severe despondency and dejection, typically also with feelings of inadequacy and guilt, often accompanied by lack of energy and disturbance of appetite and sleep.</string>
+    <string name="depressionSymptom1">Feelings of sadness, tearfulness, emptiness or hopelessness\n</string>
+    <string name="depressionSymptom2">Angry outbursts, irritability or frustration, even over small matters\n</string>
+    <string name="depressionSymptom3">Loss of interest or pleasure in most or all normal activities, such as sex, hobbies or sports\n</string>
+    <string name="depressionSymptom4">Sleep disturbances, including insomnia or sleeping too much\n</string>
+    <string name="depressionSymptom5">Tiredness and lack of energy, so even small tasks take extra effort\n</string>
+    <string name="depressionSymptom6">Reduced appetite and weight loss or increased cravings for food and weight gain\n</string>
+    <string name="depressionSymptom7">Anxiety, agitation or restlessness\n</string>
+    <string name="depressionSymptom8">Slowed thinking, speaking or body movements\n</string>
+    <string name="depressionSymptom9">Feelings of worthlessness or guilt, fixating on past failures or self-blame\n</string>
+    <string name="depressionSymptom10">Trouble thinking, concentrating, making decisions and remembering things\n</string>
+    <string name="depressionSymptom11">Frequent or recurrent thoughts of death, suicidal thoughts, suicide attempts or suicide\n</string>
+    <string name="depressionSymptom12">Unexplained physical problems, such as back pain or headaches</string>
+    <string name="depressionTip1">Take steps to control stress, to increase your resilience and boost your self-esteem.\n</string>
+    <string name="depressionTip2">Reach out to family and friends, especially in times of crisis, to help you weather rough spells.\n</string>
+    <string name="depressionTip3">Get treatment at the earliest sign of a problem to help prevent depression from worsening.\n</string>
+    <string name="depressionTip4">Consider getting long-term maintenance treatment to help prevent a relapse of symptoms.</string>
+
+    <string name="ptsd">Post Traumatic Stress Disorder</string>
+    <string name="ptsdDesc">a psychiatric disorder that may occur in people who have experienced or witnessed a traumatic event such as a natural disaster, a serious accident, a terrorist act, war/combat, or rape or who have been threatened with death, sexual violence or serious injury.</string>
+    <string name="ptsdSymptom1">Intrusion: Intrusive thoughts such as repeated, involuntary memories; distressing dreams; or flashbacks of the traumatic event. Flashbacks may be so vivid that people feel they are re-living the traumatic experience or seeing it before their eyes.\n</string>
+    <string name="ptsdSymptom2">Avoidance: Avoiding reminders of the traumatic event may include avoiding people, places, activities, objects and situations that may trigger distressing memories. People may try to avoid remembering or thinking about the traumatic event. They may resist talking about what happened or how they feel about it.\n</string>
+    <string name="ptsdSymptom3">Alterations in cognition and mood: Inability to remember important aspects of the traumatic event, negative thoughts and feelings leading to ongoing and distorted beliefs about oneself or others (e.g., “I am bad,” “No one can be trusted”); distorted thoughts about the cause or consequences of the event leading to wrongly blaming self or other; ongoing fear, horror, anger, guilt or shame; much less interest in activities previously enjoyed; feeling detached or estranged from others; or being unable to experience positive emotions (a void of happiness or satisfaction).\n</string>
+    <string name="ptsdSymptom4">Alterations in arousal and reactivity: Arousal and reactive symptoms may include being irritable and having angry outbursts; behaving recklessly or in a self-destructive way; being overly watchful of ones surroundings in a suspecting way; being easily startled; or having problems concentrating or sleeping.</string>
+    <string name="ptsdTip1">Cognitive therapy. This type of talk therapy helps you recognize the ways of thinking (cognitive patterns) that are keeping you stuck — for example, negative beliefs about yourself and the risk of traumatic things happening again. For PTSD, cognitive therapy often is used along with exposure therapy.\n</string>
+    <string name="ptsdTip2">Exposure therapy. This behavioral therapy helps you safely face both situations and memories that you find frightening so that you can learn to cope with them effectively. Exposure therapy can be particularly helpful for flashbacks and nightmares. One approach uses virtual reality programs that allow you to re-enter the setting in which you experienced trauma.\n</string>
+    <string name="ptsdTip3">Eye movement desensitization and reprocessing (EMDR). EMDR combines exposure therapy with a series of guided eye movements that help you process traumatic memories and change how you react to them.</string>
+
+    <string name="ocd">Obsessive Compulsive Disorder</string>
+    <string name="ocdDesc">a mental illness that causes repeated unwanted thoughts or sensations (obsessions) or the urge to do something over and over again (compulsions). Some people can have both obsessions and compulsions.</string>
+    <string name="ocdSymptom1">Fear of contamination or dirt\n</string>
+    <string name="ocdSymptom2">Doubting and having difficulty tolerating uncertainty\n</string>
+    <string name="ocdSymptom3">Needing things orderly and symmetrical\n</string>
+    <string name="ocdSymptom4">Aggressive or horrific thoughts about losing control and harming yourself or others\n</string>
+    <string name="ocdSymptom5">Unwanted thoughts, including aggression, or sexual or religious subjects</string>
+    <string name="ocdTip1">working with your therapist to break down your problems into their separate parts, such as your thoughts, physical feelings and actions\n</string>
+    <string name="ocdTip2">encouraging you to face your fears and have obsessive thoughts without neutralising them with compulsive behaviours; you start with situations that cause the least anxiety first, before moving on to more difficult thoughts\n</string>
+    <string name="ocdTip3">Many people with OCD find support groups helpful</string>
+
+    <string name="bipolar">Bipolar Disorder</string>
+    <string name="bipolarDesc">a mental disorder that causes unusual shifts in mood, energy, activity levels, concentration, and the ability to carry out day-to-day tasks. There are three types of bipolar disorder. All three types involve clear changes in mood, energy, and activity levels. These moods range from periods of extremely “up,” elated, irritable, or energized behavior (known as manic episodes) to very “down,” sad, indifferent, or hopeless periods (known as depressive episodes). Less severe manic periods are known as hypomanic episodes.</string>
+    <string name="bipolarSymptom1">There are several types of bipolar and related disorders. They may include mania or hypomania and depression. Symptoms can cause unpredictable changes in mood and behavior, resulting in significant distress and difficulty in life.\n</string>
+    <string name="bipolarSymptom2">Bipolar I disorder. Youve had at least one manic episode that may be preceded or followed by hypomanic or major depressive episodes. In some cases, mania may trigger a break from reality (psychosis).\n</string>
+    <string name="bipolarSymptom3">Bipolar II disorder. Youve had at least one major depressive episode and at least one hypomanic episode, but youve never had a manic episode.\n</string>
+    <string name="bipolarSymptom4">Cyclothymic disorder. Youve had at least two years — or one year in children and teenagers — of many periods of hypomania symptoms and periods of depressive symptoms (though less severe than major depression).\n</string>
+    <string name="bipolarSymptom5">Other types. These include, for example, bipolar and related disorders induced by certain drugs or alcohol or due to a medical condition, such as Cushings disease, multiple sclerosis or stroke.</string>
+    <string name="bipolarTip1">working with your therapist to break down your problems into their separate parts, such as your thoughts, physical feelings and actions\n</string>
+    <string name="bipolarTip2">encouraging you to face your fears and have obsessive thoughts without neutralising them with compulsive behaviours; you start with situations that cause the least anxiety first, before moving on to more difficult thoughts\n</string>
+    <string name="bipolarTip3">Many people with OCD find support groups helpful</string>
 </resources>

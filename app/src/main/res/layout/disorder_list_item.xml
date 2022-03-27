@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
-        android:id="@+id/widgetImg"
+        android:id="@+id/disorderImgView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:padding="9dp"
-        tools:ignore="SpeakableTextPresentCheck,UseAppTint"
         android:tint="#80F15156"
-        app:srcCompat="@drawable/articles" />
+        app:srcCompat="@drawable/articles"
+        tools:ignore="SpeakableTextPresentCheck,UseAppTint" />
 
     <TextView
-        android:id="@+id/widgetText"
+        android:id="@+id/disorderTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:fontFamily="@font/oswaldbold"
-        android:text="Articles and Studies"
+        android:text="Mental Disorder"
         android:textColor="@color/white"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
+
 </RelativeLayout>
