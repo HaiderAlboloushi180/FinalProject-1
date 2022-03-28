@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ArtActivity">
 
-    <androidx.gridlayout.widget.GridLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp">
-
-    </androidx.gridlayout.widget.GridLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
