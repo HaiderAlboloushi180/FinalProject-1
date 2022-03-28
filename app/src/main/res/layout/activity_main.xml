@@ -36,6 +36,7 @@
             android:layout_marginLeft="30dp"
             android:text="Suicide Hotline"
             android:textAllCaps="false" />
+
     </LinearLayout>
 
     <ScrollView
@@ -123,8 +124,7 @@
                     android:textSize="25sp" />
             </RelativeLayout>
 
-            <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
+            <RelativeLayout
                 android:id="@+id/parents"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -146,6 +146,7 @@
                     android:text="Caregivers &amp; Parents"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
+
             </RelativeLayout>
 
             <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -168,7 +169,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:fontFamily="@font/oswaldbold"
-                    android:text="Extra Things to Enjoy"
+                    android:text="Some Things to Enjoy"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
             </RelativeLayout>
