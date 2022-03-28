@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Mentapy</string>
-    
+
     <string name="depression">Depression</string>
     <string name="depressionDesc">a mental condition characterized by feelings of severe despondency and dejection, typically also with feelings of inadequacy and guilt, often accompanied by lack of energy and disturbance of appetite and sleep.</string>
     <string name="depressionSymptom1">Feelings of sadness, tearfulness, emptiness or hopelessness\n</string>
@@ -8,13 +8,6 @@
     <string name="depressionSymptom3">Loss of interest or pleasure in most or all normal activities, such as sex, hobbies or sports\n</string>
     <string name="depressionSymptom4">Sleep disturbances, including insomnia or sleeping too much\n</string>
     <string name="depressionSymptom5">Tiredness and lack of energy, so even small tasks take extra effort\n</string>
-    <string name="depressionSymptom6">Reduced appetite and weight loss or increased cravings for food and weight gain\n</string>
-    <string name="depressionSymptom7">Anxiety, agitation or restlessness\n</string>
-    <string name="depressionSymptom8">Slowed thinking, speaking or body movements\n</string>
-    <string name="depressionSymptom9">Feelings of worthlessness or guilt, fixating on past failures or self-blame\n</string>
-    <string name="depressionSymptom10">Trouble thinking, concentrating, making decisions and remembering things\n</string>
-    <string name="depressionSymptom11">Frequent or recurrent thoughts of death, suicidal thoughts, suicide attempts or suicide\n</string>
-    <string name="depressionSymptom12">Unexplained physical problems, such as back pain or headaches</string>
     <string name="depressionTip1">Take steps to control stress, to increase your resilience and boost your self-esteem.\n</string>
     <string name="depressionTip2">Reach out to family and friends, especially in times of crisis, to help you weather rough spells.\n</string>
     <string name="depressionTip3">Get treatment at the earliest sign of a problem to help prevent depression from worsening.\n</string>
@@ -51,4 +44,28 @@
     <string name="bipolarTip1">working with your therapist to break down your problems into their separate parts, such as your thoughts, physical feelings and actions\n</string>
     <string name="bipolarTip2">encouraging you to face your fears and have obsessive thoughts without neutralising them with compulsive behaviours; you start with situations that cause the least anxiety first, before moving on to more difficult thoughts\n</string>
     <string name="bipolarTip3">Many people with OCD find support groups helpful</string>
+
+    <string name="schizo">Schizophrenia</string>
+    <string name="schizoDesc">a serious mental illness that affects how a person thinks, feels, and behaves. People with schizophrenia may seem like they have lost touch with reality, which causes significant distress for the individual, their family members, and friends.</string>
+    <string name="schizoSymptom1">Delusions. These are false beliefs that are not based in reality. For example, you think that you are being harmed or harassed; certain gestures or comments are directed at you; you have exceptional ability or fame; another person is in love with you; or a major catastrophe is about to occur. Delusions occur in most people with schizophrenia.\n</string>
+    <string name="schizoSymptom2">Hallucinations. These usually involve seeing or hearing things that do not exist. Yet for the person with schizophrenia, they have the full force and impact of a normal experience. Hallucinations can be in any of the senses, but hearing voices is the most common hallucination.\n</string>
+    <string name="schizoSymptom3">Disorganized thinking (speech). Disorganized thinking is inferred from disorganized speech. Effective communication can be impaired, and answers to questions may be partially or completely unrelated. Rarely, speech may include putting together meaningless words that cannot be understood, sometimes known as word salad.\n</string>
+    <string name="schizoSymptom4">Extremely disorganized or abnormal motor behavior. This may show in a number of ways, from childlike silliness to unpredictable agitation. Behavior is not focused on a goal, so it is hard to do tasks. Behavior can include resistance to instructions, inappropriate or bizarre posture, a complete lack of response, or useless and excessive movement.\n</string>
+    <string name="schizoSymptom5">Negative symptoms. This refers to reduced or lack of ability to function normally. For example, the person may neglect personal hygiene or appear to lack emotion (does not make eye contact, does not change facial expressions or speaks in a monotone). Also, the person may lose interest in everyday activities, socially withdraw or lack the ability to experience pleasure.</string>
+    <string name="schizoTip1">Individual therapy. Psychotherapy may help to normalize thought patterns. Also, learning to cope with stress and identify early warning signs of relapse can help people with schizophrenia manage their illness.\n</string>
+    <string name="schizoTip2">Social skills training. This focuses on improving communication and social interactions and improving the ability to participate in daily activities.\n</string>
+    <string name="schizoTip3">Family therapy. This provides support and education to families dealing with schizophrenia.\n</string>
+    <string name="schizoTip4">Vocational rehabilitation and supported employment. This focuses on helping people with schizophrenia prepare for, find and keep jobs.</string>
+
+    <string name="addiction">Addiction</string>
+    <string name="addictionDesc">a chronic, relapsing disorder characterized by compulsive drug seeking, continued use despite harmful consequences, and long-lasting changes in the brain. It is considered both a complex brain disorder and a mental illness.</string>
+    <string name="addictionSymptom1">An inability to stop using: In many cases, such as a dependence on nicotine, alcohol, or other substances, a person will have made at least one serious but unsuccessful attempt to give up. This might also be physiological, as some substances, such as heroin, are chemically addictive and cause withdrawal symptoms if a person stops taking them.\n</string>
+    <string name="addictionSymptom2">Use and abuse of substances continue despite health problems: The individual continues regularly taking the substance, even though they have developed related illnesses. For example, a smoker may continue smoking after the development of a lung or heart disease. They may or may not be aware of the health impact of the substance or behavior.\n</string>
+    <string name="addictionSymptom3">Dealing with problems: A person with addiction commonly feels the need to take the drug or carry out the behavior to deal with their problems.\n</string>
+    <string name="addictionSymptom4">Obsession: A person may become obsessed with a substance, spending more and more time and energy finding ways of getting their substance, and in some cases how they can use it.\n</string>
+    <string name="addictionSymptom5">Taking risks: An individual with an addiction may take risks to obtain the substance or engage in the behavior, such as trading sex or stealing for illicit drugs, drug money, or the drugs themselves. While under the influence of some substances, a person with substance use disorder may engage in risky activities, such as fast and dangerous driving or violence.</string>
+    <string name="addictionTip1">Detoxification. Medically-assisted detox allows you to rid your body of addictive substances in a safe environment. This is beneficial because sometimes substance withdrawal can cause unpleasant or even life-threatening physical symptoms. Because detox does not treat the underlying behavioral causes of the addiction, it is typically used in combination with other therapies.\n</string>
+    <string name="addictionTip2">Cognitive Behavioral Therapy. According to American Addiction Centers, Cognitive Behavioral Therapy (CBT) is a valuable treatment tool because it can be used for many different types of addiction including, but not limited to, food addiction, alcohol addiction, and prescription drug addiction. Not only can CBT help you recognize your unhealthy behavioral patterns, but it can also help you learn to identify triggers and develop coping skills. CBT can be combined with other therapeutic techniques as well.\n</string>
+    <string name="addictionTip3">Rational Emotive Behavior Therapy. Rational Emotive Behavior Therapy (REBT) could help you recognize your negative thoughts and give you ways to combat feelings of self-defeat. The goal of REBT is to help you realize that the power of rational thinking lies within yourself and is not related to external situations or stressors.\n</string>
+    <string name="addictionTip4">12-Step Facilitation. Twelve-step facilitation therapy ("12-step programs") can be used to treat alcohol and substance abuse. It is a form of group therapy that includes recognition that addiction has several negative consequences that can be social, emotional, spiritual and physical. This type of therapy begins with acceptance, then moves on to surrender to a higher power, then eventually transitions to involvement in consistent group meetings. Programs like the popular Alcoholics Anonymous use group meetings for discussion and mutual support</string>
 </resources>
