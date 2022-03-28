@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_articles.xml" value="0.390625" />
         <entry key="app/src/main/res/layout/activity_common_illnesses.xml" value="0.4046875" />
+        <entry key="app/src/main/res/layout/activity_common_illnesses_details.xml" value="0.4046875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23840637207031246" />
         <entry key="app/src/main/res/layout/disorder_list_item.xml" value="0.4046875" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.2240677543308424" />

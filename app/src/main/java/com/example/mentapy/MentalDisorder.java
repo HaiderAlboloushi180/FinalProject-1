@@ -8,13 +8,15 @@ public class MentalDisorder implements Serializable {
     private String disorderSymptoms;
     private String disorderTips;
     private int disorderImg;
+    private String disorderURL;
 
-    public MentalDisorder(String disorderName, String disorderDesc, String disorderSymptoms, String disorderTips, int disorderImg) {
+    public MentalDisorder(String disorderName, String disorderDesc, String disorderSymptoms, String disorderTips, int disorderImg, String disorderURL) {
         this.disorderName = disorderName;
         this.disorderDesc = disorderDesc;
         this.disorderSymptoms = disorderSymptoms;
         this.disorderTips = disorderTips;
         this.disorderImg = disorderImg;
+        this.disorderURL = disorderURL;
     }
 
     public String getDisorderName() { return disorderName; }
@@ -31,4 +33,7 @@ public class MentalDisorder implements Serializable {
 
     public int getDisorderImg() { return disorderImg; }
     public void setDisorderImg(int disorderImg) { this.disorderImg = disorderImg; }
+
+    public String getDisorderURL() { return disorderURL; }
+    public void setDisorderURL(String disorderURL) { this.disorderURL = disorderURL; }
 }
