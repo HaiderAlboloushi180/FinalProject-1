@@ -19,7 +19,6 @@ public class SomeThingsActivity extends AppCompatActivity {
 
         // Views
         RelativeLayout artButton  = findViewById(R.id.art);
-        RelativeLayout vidsButton = findViewById(R.id.vids);
         RelativeLayout poemButton = findViewById(R.id.poems);
         RelativeLayout picsButton = findViewById(R.id.pics);
         Button clickMeButton = findViewById(R.id.clickme);
@@ -38,13 +37,6 @@ public class SomeThingsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(SomeThingsActivity.this, ArtActivity.class);
                 startActivity(intent);
-            }
-        });
-
-        vidsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
             }
         });
 

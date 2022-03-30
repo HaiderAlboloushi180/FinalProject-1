@@ -4,9 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ArtActivity">
+    android:orientation="vertical"
+    android:background="#FFE9D1"
+    tools:context=".ArtActivity" >
+
+    <include layout="@layout/toolbar"/>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/artRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
