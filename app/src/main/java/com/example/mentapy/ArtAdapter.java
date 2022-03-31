@@ -1,13 +1,14 @@
 package com.example.mentapy;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
@@ -22,16 +23,15 @@ public class ArtAdapter extends RecyclerView.Adapter {
     }
 
     @NonNull
-    @androidx.annotation.NonNull
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull @androidx.annotation.NonNull ViewGroup viewGroup, int i) {
+    public RecyclerView.ViewHolder onCreateViewHolder(@androidx.annotation.NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.art_item, viewGroup, false);
         ViewHolder viewHolder = new ViewHolder(view);
         return viewHolder;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull @androidx.annotation.NonNull RecyclerView.ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@androidx.annotation.NonNull RecyclerView.ViewHolder viewHolder, int i) {
 
     }
 
@@ -46,7 +46,7 @@ public class ArtAdapter extends RecyclerView.Adapter {
         public TextView artTextView;
         public View view;
 
-        public ViewHolder(@NonNull @androidx.annotation.NonNull View itemView) {
+        public ViewHolder(@androidx.annotation.NonNull View itemView) {
             super(itemView);
             view = itemView;
             artImageView = itemView.findViewById(R.id.artImageView);

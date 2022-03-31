@@ -1,11 +1,8 @@
 package com.example.mentapy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
