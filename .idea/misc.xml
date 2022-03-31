@@ -3,16 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_art.xml" value="0.14897766113281252" />
+        <entry key="app/src/main/res/layout/activity_art.xml" value="0.14204559326171876" />
         <entry key="app/src/main/res/layout/activity_articles.xml" value="0.390625" />
         <entry key="app/src/main/res/layout/activity_common_illnesses.xml" value="0.4046875" />
         <entry key="app/src/main/res/layout/activity_common_illnesses_details.xml" value="0.4046875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20195439739413681" />
-        <entry key="app/src/main/res/layout/activity_some_things.xml" value="0.27739170155626663" />
+        <entry key="app/src/main/res/layout/activity_pics.xml" value="0.18439331054687502" />
+        <entry key="app/src/main/res/layout/activity_poem.xml" value="0.19701086956521738" />
+        <entry key="app/src/main/res/layout/activity_some_things.xml" value="0.2672413793103448" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.19701086956521738" />
         <entry key="app/src/main/res/layout/art_item.xml" value="0.12816016155740484" />
         <entry key="app/src/main/res/layout/disorder_list_item.xml" value="0.4046875" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.2240677543308424" />
+        <entry key="app/src/main/res/layout/pics_item.xml" value="0.19701086956521738" />
+        <entry key="app/src/main/res/layout/poem_item.xml" value="0.19701086956521738" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.310390358782829" />
         <entry key="app/src/main/res/layout/widget.xml" value="0.4046875" />
         <entry key="app/src/main/res/menu/burger.xml" value="0.2611111111111111" />

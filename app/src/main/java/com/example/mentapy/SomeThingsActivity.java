@@ -43,14 +43,16 @@ public class SomeThingsActivity extends AppCompatActivity {
         poemButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(SomeThingsActivity.this, PoemActivity.class);
+                startActivity(intent);
             }
         });
 
         picsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(SomeThingsActivity.this, PicsActivity.class);
+                startActivity(intent);
             }
         });
     }
