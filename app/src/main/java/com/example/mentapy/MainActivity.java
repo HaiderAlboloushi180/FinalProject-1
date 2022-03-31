@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         Button suicideHotline = findViewById(R.id.hotline);
         ImageView musicButton = findViewById(R.id.musicButton);
         RelativeLayout articlesWidget = findViewById(R.id.article);
-        RelativeLayout calendarWidget = findViewById(R.id.calendar);
         RelativeLayout illnessWidget  = findViewById(R.id.common);
         RelativeLayout parentsWidget  = findViewById(R.id.parents);
         RelativeLayout therapyWidget  = findViewById(R.id.extra);
@@ -73,13 +72,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ArticlesActivity.class);
                 startActivity(intent);
-            }
-        });
-
-        calendarWidget.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
             }
         });
 

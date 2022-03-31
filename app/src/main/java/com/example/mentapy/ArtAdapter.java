@@ -32,7 +32,8 @@ public class ArtAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(@androidx.annotation.NonNull RecyclerView.ViewHolder viewHolder, int i) {
-
+        ((ViewHolder) viewHolder).artImageView.setImageResource(artsArray.get(i).getArtImg());
+        ((ViewHolder) viewHolder).artTextView.setText(artsArray.get(i).getArtTitle());
     }
 
     @Override
