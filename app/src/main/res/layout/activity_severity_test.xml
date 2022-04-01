@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE9D1"
+    tools:context=".SeverityTestActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/questionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oswaldregular"
+        android:text="Question Number"
+        android:textColor="@color/black"
+        android:layout_margin="25dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Question Over Here"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/oswaldbold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/oswaldregular"
+            android:text="Option 1" />
+
+        <Button
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/oswaldregular"
+            android:text="Option 2" />
+
+        <Button
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/oswaldregular"
+            android:text="Option 3" />
+
+        <Button
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/oswaldregular"
+            android:text="Option 4" />
+
+    </LinearLayout>
+
+</LinearLayout>

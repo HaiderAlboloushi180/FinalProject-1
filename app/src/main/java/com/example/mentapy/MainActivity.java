@@ -3,20 +3,14 @@ package com.example.mentapy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.Image;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toolbar;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView musicButton = findViewById(R.id.musicButton);
         RelativeLayout articlesWidget = findViewById(R.id.article);
         RelativeLayout illnessWidget  = findViewById(R.id.common);
-        RelativeLayout parentsWidget  = findViewById(R.id.parents);
+        RelativeLayout testingWidget  = findViewById(R.id.test);
         RelativeLayout therapyWidget  = findViewById(R.id.extra);
 
         // Hotline Feature
@@ -83,10 +77,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        parentsWidget.setOnClickListener(new View.OnClickListener() {
+        testingWidget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, SeverityTestActivity.class);
+                startActivity(intent);
             }
         });
 

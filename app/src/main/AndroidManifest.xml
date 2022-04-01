@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mentapy">
         <activity
+            android:name=".SeverityTestActivity"
+            android:exported="false" />
+        <activity
             android:name=".PicsActivity"
             android:exported="false" />
         <activity
