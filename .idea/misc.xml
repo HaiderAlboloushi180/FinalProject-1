@@ -24,6 +24,9 @@
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.310390358782829" />
         <entry key="app/src/main/res/layout/widget.xml" value="0.4046875" />
         <entry key="app/src/main/res/menu/burger.xml" value="0.2611111111111111" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1505" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1505" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/mentapy_logo.xml" value="0.1505" />
       </map>
     </option>
   </component>
