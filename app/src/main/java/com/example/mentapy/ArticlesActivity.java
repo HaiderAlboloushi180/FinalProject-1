@@ -3,7 +3,10 @@ package com.example.mentapy;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -35,6 +38,16 @@ public class ArticlesActivity extends AppCompatActivity {
         articlesListView = findViewById(R.id.articlesList);
         db = FirebaseFirestore.getInstance();
         loadDataIntoView();
+
+        articlesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(ArticlesActivity.this, ArticlesDetails.class);
+                Article currentItem = articles.get(i);
+                intent.putExtra("ARTICLES", currentItem);
+                startActivity(intent);
+            }
+        });
     }
 
     private void loadDataIntoView() {
